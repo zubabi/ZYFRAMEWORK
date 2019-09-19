@@ -10,13 +10,9 @@ import UIKit
 import ZYFramework
 
 class ViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         print(Handshake.Ping())
     }
-
-
 }
-

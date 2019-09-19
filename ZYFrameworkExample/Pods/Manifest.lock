@@ -1,0 +1,16 @@
+PODS:
+  - ZYFramework (1.0.1)
+
+DEPENDENCIES:
+  - ZYFramework (from `../ZYFramework/`)
+
+EXTERNAL SOURCES:
+  ZYFramework:
+    :path: "../ZYFramework/"
+
+SPEC CHECKSUMS:
+  ZYFramework: ad8a0b455a57f3f2755a5d44ba8e3b443e7aaad9
+
+PODFILE CHECKSUM: 8cd1cb513ea7a86e405c49c2fa442bfc80e88989
+
+COCOAPODS: 1.8.0.beta.2
