@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 
-spec.name         = "ZYFramework"
+spec.name         = "ZYFramework2"
 spec.version      = "1.0.2"
 spec.summary      = "ZYFramework is library just for testing"
 spec.description  = "ZYFramework is library just for testing description"
