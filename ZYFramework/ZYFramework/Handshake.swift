@@ -26,6 +26,7 @@ public class Handshake {
         case cellular = "pdp_ip0"
         // ... case ipv4 = "ipv4"
         // ... case ipv6 = "ipv6"
+        
     }
     
     private static func getAddress(for network: Network) -> String? {
