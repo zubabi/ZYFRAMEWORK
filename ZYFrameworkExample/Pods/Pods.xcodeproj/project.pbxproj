@@ -30,7 +30,7 @@
 		00FE9285401E6D38F4E8BDCE1090886F /* ZYFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZYFramework-dummy.m"; sourceTree = "<group>"; };
 		0701FDFDECC9102E416833B524954088 /* ZYFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZYFramework.modulemap; sourceTree = "<group>"; };
 		1409B9F1289BA9C416454FD87C52B91D /* ZYFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZYFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		171CF8B1A7D3274B3E3278F5C585A114 /* ZYFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZYFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		171CF8B1A7D3274B3E3278F5C585A114 /* ZYFramework2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZYFramework2.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2DDADE33F8A283E57F06D620053860E5 /* Pods_ZYFrameworkExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYFrameworkExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30642ED2875C1497DC104DFBA44E0336 /* Pods-ZYFrameworkExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYFrameworkExample.release.xcconfig"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -167,7 +167,7 @@
 		E7C0C5F63E1FB8E73924FB1A5145AED3 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				171CF8B1A7D3274B3E3278F5C585A114 /* ZYFramework.podspec */,
+				171CF8B1A7D3274B3E3278F5C585A114 /* ZYFramework2.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
