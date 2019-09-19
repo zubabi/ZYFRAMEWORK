@@ -23,10 +23,6 @@
 		9E914FB32333B44800913B26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E914FB62333B44800913B26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E914FB82333B44800913B26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9E914FC12333B44800913B26 /* ZYFrameworkExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYFrameworkExampleTests.swift; sourceTree = "<group>"; };
-		9E914FC32333B44800913B26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9E914FCC2333B44800913B26 /* ZYFrameworkExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYFrameworkExampleUITests.swift; sourceTree = "<group>"; };
-		9E914FCE2333B44800913B26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A30B9110941CA2DDA4E0493F /* Pods_ZYFrameworkExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYFrameworkExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5C416284F35192852AA7012 /* Pods-ZYFrameworkExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYFrameworkExample.debug.xcconfig"; path = "Target Support Files/Pods-ZYFrameworkExample/Pods-ZYFrameworkExample.debug.xcconfig"; sourceTree = "<group>"; };
 		FDD3250F64D8ED3F527590D5 /* Pods-ZYFrameworkExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYFrameworkExample.release.xcconfig"; path = "Target Support Files/Pods-ZYFrameworkExample/Pods-ZYFrameworkExample.release.xcconfig"; sourceTree = "<group>"; };
@@ -65,8 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				9E914FAB2333B44700913B26 /* ZYFrameworkExample */,
-				9E914FC02333B44800913B26 /* ZYFrameworkExampleTests */,
-				9E914FCB2333B44800913B26 /* ZYFrameworkExampleUITests */,
 				9E914FAA2333B44700913B26 /* Products */,
 				0D238475CE0947D5CAEC2AFA /* Pods */,
 				79B8C287625A8B3B8BF3E9D4 /* Frameworks */,
@@ -92,24 +86,6 @@
 				9E914FB82333B44800913B26 /* Info.plist */,
 			);
 			path = ZYFrameworkExample;
-			sourceTree = "<group>";
-		};
-		9E914FC02333B44800913B26 /* ZYFrameworkExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				9E914FC12333B44800913B26 /* ZYFrameworkExampleTests.swift */,
-				9E914FC32333B44800913B26 /* Info.plist */,
-			);
-			path = ZYFrameworkExampleTests;
-			sourceTree = "<group>";
-		};
-		9E914FCB2333B44800913B26 /* ZYFrameworkExampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				9E914FCC2333B44800913B26 /* ZYFrameworkExampleUITests.swift */,
-				9E914FCE2333B44800913B26 /* Info.plist */,
-			);
-			path = ZYFrameworkExampleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
