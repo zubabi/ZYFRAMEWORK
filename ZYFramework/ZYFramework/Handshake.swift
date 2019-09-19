@@ -17,6 +17,10 @@ public class Handshake {
         return message
     }
     
+    public static func Pong() -> String {
+        return "Pong..."
+    }
+    
     enum Network: String {
         case wifi = "en0"
         case cellular = "pdp_ip0"
