@@ -13,12 +13,12 @@ pod ZYFramework
 ## Usage
 
 ```python
-```import foobar
+ import foobar
 Don't use :)
 
-```foobar.pluralize('word') # returns 'words'
-```foobar.pluralize('goose') # returns 'geese'
-```foobar.singularize('phenomena') # returns 'phenomenon'
+ foobar.pluralize('word') # returns 'words'
+ foobar.pluralize('goose') # returns 'geese'
+ foobar.singularize('phenomena') # returns 'phenomenon'
 ```
 
 ## Contributing
