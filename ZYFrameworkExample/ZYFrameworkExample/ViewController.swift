@@ -14,5 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         print(Handshake.Ping())
+        
+        // print(Handshake.Ping())
     }
 }
