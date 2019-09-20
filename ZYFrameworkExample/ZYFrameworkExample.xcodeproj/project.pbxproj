@@ -14,6 +14,7 @@
 		9E914FB42333B44800913B26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E914FB32333B44800913B26 /* Assets.xcassets */; };
 		9E914FB72333B44800913B26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E914FB52333B44800913B26 /* LaunchScreen.storyboard */; };
 		9EB47C4E2334BA1F00AC5C27 /* ZYFrameworkExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB47C4D2334BA1F00AC5C27 /* ZYFrameworkExampleTests.swift */; };
+		9EB47C562334BC7300AC5C27 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB47C552334BC7200AC5C27 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		9EB47C4B2334BA1F00AC5C27 /* ZYFrameworkExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYFrameworkExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EB47C4D2334BA1F00AC5C27 /* ZYFrameworkExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYFrameworkExampleTests.swift; sourceTree = "<group>"; };
 		9EB47C4F2334BA1F00AC5C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EB47C552334BC7200AC5C27 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		A30B9110941CA2DDA4E0493F /* Pods_ZYFrameworkExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYFrameworkExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5C416284F35192852AA7012 /* Pods-ZYFrameworkExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYFrameworkExample.debug.xcconfig"; path = "Target Support Files/Pods-ZYFrameworkExample/Pods-ZYFrameworkExample.debug.xcconfig"; sourceTree = "<group>"; };
 		FDD3250F64D8ED3F527590D5 /* Pods-ZYFrameworkExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYFrameworkExample.release.xcconfig"; path = "Target Support Files/Pods-ZYFrameworkExample/Pods-ZYFrameworkExample.release.xcconfig"; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				9E914FB32333B44800913B26 /* Assets.xcassets */,
 				9E914FB52333B44800913B26 /* LaunchScreen.storyboard */,
 				9E914FB82333B44800913B26 /* Info.plist */,
+				9EB47C552334BC7200AC5C27 /* Extensions.swift */,
 			);
 			path = ZYFrameworkExample;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E914FAF2333B44700913B26 /* ViewController.swift in Sources */,
+				9EB47C562334BC7300AC5C27 /* Extensions.swift in Sources */,
 				9E914FAD2333B44700913B26 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

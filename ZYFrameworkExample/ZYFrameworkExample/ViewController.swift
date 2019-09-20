@@ -14,8 +14,16 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         print(Handshake.Ping())
-        
-        
+        print(2.square())
+        print(2.square().square())
+        print(2.square().square().square())
+
         // print(Handshake.Ping())
+    }
+}
+
+extension Int {
+    func square() -> Int {
+        return self * self
     }
 }

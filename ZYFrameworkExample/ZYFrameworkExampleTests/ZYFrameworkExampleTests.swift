@@ -7,27 +7,27 @@
 //
 
 import XCTest
+@testable import ZYFrameworkExample
 
 class ZYFrameworkExampleTests: XCTestCase {
-
-    override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    func testHelloWorld() {
+        print("testHelloWorld started")
+        var helloWorld: String?
+        XCTAssertNil(helloWorld)
+        helloWorld = "Hello world"
+        XCTAssertEqual(helloWorld, "Hello world")
     }
 
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    func testTimeAgoString() {
+        print("testTimeAgoString started")
+        let fiveMinsAgo = Date(timeIntervalSinceNow: -5 * 60)
+        let fiveMinsAgoDisplay = fiveMinsAgo.timeAgoDisplay()
+        XCTAssertEqual(fiveMinsAgoDisplay, "5 minutes ago")
     }
 
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testSquareInt() {
+        print("testSquareInt started")
+        let value = 3
+        XCTAssertEqual(value.square(), 9)
     }
-
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
 }
