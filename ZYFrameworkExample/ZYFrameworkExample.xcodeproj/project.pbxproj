@@ -13,7 +13,18 @@
 		9E914FB22333B44700913B26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E914FB02333B44700913B26 /* Main.storyboard */; };
 		9E914FB42333B44800913B26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E914FB32333B44800913B26 /* Assets.xcassets */; };
 		9E914FB72333B44800913B26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E914FB52333B44800913B26 /* LaunchScreen.storyboard */; };
+		9EB47C4E2334BA1F00AC5C27 /* ZYFrameworkExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB47C4D2334BA1F00AC5C27 /* ZYFrameworkExampleTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9EB47C502334BA1F00AC5C27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E914FA12333B44700913B26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E914FA82333B44700913B26;
+			remoteInfo = ZYFrameworkExample;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		9E914FA92333B44700913B26 /* ZYFrameworkExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYFrameworkExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -23,6 +34,9 @@
 		9E914FB32333B44800913B26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E914FB62333B44800913B26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E914FB82333B44800913B26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EB47C4B2334BA1F00AC5C27 /* ZYFrameworkExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYFrameworkExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EB47C4D2334BA1F00AC5C27 /* ZYFrameworkExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYFrameworkExampleTests.swift; sourceTree = "<group>"; };
+		9EB47C4F2334BA1F00AC5C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A30B9110941CA2DDA4E0493F /* Pods_ZYFrameworkExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYFrameworkExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5C416284F35192852AA7012 /* Pods-ZYFrameworkExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYFrameworkExample.debug.xcconfig"; path = "Target Support Files/Pods-ZYFrameworkExample/Pods-ZYFrameworkExample.debug.xcconfig"; sourceTree = "<group>"; };
 		FDD3250F64D8ED3F527590D5 /* Pods-ZYFrameworkExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYFrameworkExample.release.xcconfig"; path = "Target Support Files/Pods-ZYFrameworkExample/Pods-ZYFrameworkExample.release.xcconfig"; sourceTree = "<group>"; };
@@ -34,6 +48,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				640A13815C56C6CC40B11F87 /* Pods_ZYFrameworkExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EB47C482334BA1F00AC5C27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				9E914FAB2333B44700913B26 /* ZYFrameworkExample */,
+				9EB47C4C2334BA1F00AC5C27 /* ZYFrameworkExampleTests */,
 				9E914FAA2333B44700913B26 /* Products */,
 				0D238475CE0947D5CAEC2AFA /* Pods */,
 				79B8C287625A8B3B8BF3E9D4 /* Frameworks */,
@@ -71,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				9E914FA92333B44700913B26 /* ZYFrameworkExample.app */,
+				9EB47C4B2334BA1F00AC5C27 /* ZYFrameworkExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,6 +109,15 @@
 				9E914FB82333B44800913B26 /* Info.plist */,
 			);
 			path = ZYFrameworkExample;
+			sourceTree = "<group>";
+		};
+		9EB47C4C2334BA1F00AC5C27 /* ZYFrameworkExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				9EB47C4D2334BA1F00AC5C27 /* ZYFrameworkExampleTests.swift */,
+				9EB47C4F2334BA1F00AC5C27 /* Info.plist */,
+			);
+			path = ZYFrameworkExampleTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +142,24 @@
 			productReference = 9E914FA92333B44700913B26 /* ZYFrameworkExample.app */;
 			productType = "com.apple.product-type.application";
 		};
+		9EB47C4A2334BA1F00AC5C27 /* ZYFrameworkExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EB47C542334BA1F00AC5C27 /* Build configuration list for PBXNativeTarget "ZYFrameworkExampleTests" */;
+			buildPhases = (
+				9EB47C472334BA1F00AC5C27 /* Sources */,
+				9EB47C482334BA1F00AC5C27 /* Frameworks */,
+				9EB47C492334BA1F00AC5C27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EB47C512334BA1F00AC5C27 /* PBXTargetDependency */,
+			);
+			name = ZYFrameworkExampleTests;
+			productName = ZYFrameworkExampleTests;
+			productReference = 9EB47C4B2334BA1F00AC5C27 /* ZYFrameworkExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -122,6 +172,10 @@
 				TargetAttributes = {
 					9E914FA82333B44700913B26 = {
 						CreatedOnToolsVersion = 10.2.1;
+					};
+					9EB47C4A2334BA1F00AC5C27 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 9E914FA82333B44700913B26;
 					};
 				};
 			};
@@ -139,6 +193,7 @@
 			projectRoot = "";
 			targets = (
 				9E914FA82333B44700913B26 /* ZYFrameworkExample */,
+				9EB47C4A2334BA1F00AC5C27 /* ZYFrameworkExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -151,6 +206,13 @@
 				9E914FB72333B44800913B26 /* LaunchScreen.storyboard in Resources */,
 				9E914FB42333B44800913B26 /* Assets.xcassets in Resources */,
 				9E914FB22333B44700913B26 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EB47C492334BA1F00AC5C27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +270,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9EB47C472334BA1F00AC5C27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EB47C4E2334BA1F00AC5C27 /* ZYFrameworkExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9EB47C512334BA1F00AC5C27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E914FA82333B44700913B26 /* ZYFrameworkExample */;
+			targetProxy = 9EB47C502334BA1F00AC5C27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9E914FB02333B44700913B26 /* Main.storyboard */ = {
@@ -382,6 +460,44 @@
 			};
 			name = Release;
 		};
+		9EB47C522334BA1F00AC5C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYFrameworkExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.aaaa.ZYFrameworkExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYFrameworkExample.app/ZYFrameworkExample";
+			};
+			name = Debug;
+		};
+		9EB47C532334BA1F00AC5C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYFrameworkExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.aaaa.ZYFrameworkExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYFrameworkExample.app/ZYFrameworkExample";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -399,6 +515,15 @@
 			buildConfigurations = (
 				9E914FD22333B44800913B26 /* Debug */,
 				9E914FD32333B44800913B26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EB47C542334BA1F00AC5C27 /* Build configuration list for PBXNativeTarget "ZYFrameworkExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EB47C522334BA1F00AC5C27 /* Debug */,
+				9EB47C532334BA1F00AC5C27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
